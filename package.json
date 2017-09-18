@@ -6,6 +6,9 @@
   "author": "John Ford <john@johnford.org>",
   "license": "MPL-2.0",
   "private": true,
+  "scripts": {
+    "test": "mocha"
+  },
   "devDependencies": {
     "assume": "^1.5.1",
     "mocha": "^3.5.3",
