@@ -5,5 +5,11 @@
   "main": "lib/main.js",
   "author": "John Ford <john@johnford.org>",
   "license": "MPL-2.0",
-  "private": true
+  "private": true,
+  "devDependencies": {
+    "assume": "^1.5.1",
+    "mocha": "^3.5.3",
+    "nock": "^9.0.14",
+    "sinon": "^3.3.0"
+  }
 }
