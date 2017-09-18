@@ -1,0 +1,9 @@
+{
+  "name": "ucosp-exercise-template",
+  "version": "1.0.0",
+  "description": "A template for the Taskcluster UCOSP Winter 2017 students to work from",
+  "main": "lib/main.js",
+  "author": "John Ford <john@johnford.org>",
+  "license": "MPL-2.0",
+  "private": true
+}
