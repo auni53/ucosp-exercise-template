@@ -3,7 +3,7 @@ const subject = require('../');
 
 describe('URL Fetcher', () => {
   it('should fetch a url', async () => {
-    let result = await subject.fetch({url: 'http://httpbin.org/get'});
+    let result = await subject.fetch({url: 'https://httpbin.org/get'});
     assume(result).has.property('statusCode', 200);
     assume(result).has.property('body');
     assume(result.body).to.be.a('Buffer');
